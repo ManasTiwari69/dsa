@@ -47,8 +47,8 @@ int main()
     for(int i=0;A[i]!='\0';i++)
     {
         x=1;
-        x=x << A[i]-97;
-        if(x & H>0)
+        x=x<<A[i]-97;
+        if((x & H)>0)
         {
             printf("\n the duplicate element is:%c",A[i]);
             
